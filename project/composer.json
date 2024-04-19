@@ -1,0 +1,20 @@
+{
+    "name": "dev-fighters/php-datetime",
+    "description": "PHP tools",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Dev Fighters"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevFighters\\DateTime": "src"
+        }
+    }
+}
